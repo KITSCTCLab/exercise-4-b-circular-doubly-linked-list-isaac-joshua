@@ -5,7 +5,7 @@ circular_linked_list = list(map(int,input().strip().split(" ")))
 actual_list = []
 #a variable to iterate through the given list
 index = 0
-while len() < length_of_circular_linked_list and index < len(circular_linked_list):
+while len(actual_list) < length_of_circular_linked_list and index < len(circular_linked_list):
     element = circular_linked_list[index]
     if element not in actual_list:
         actual_list.append(element)
